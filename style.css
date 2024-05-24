@@ -1,0 +1,32 @@
+
+/* Colors */
+:root {
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+  }
+  
+  /* Typography */
+  body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    color: var(--almost-black);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+  
+  p {
+    font-weight: 500;
+  }
+  
+  /* Layout */
+  body {
+    /* Asegúrate de que tu diseño sea responsivo */
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+  

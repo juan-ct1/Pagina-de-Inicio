@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./images/logo.svg">Snap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Feacture
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-outline-primary" type="button">Login</button>
+        <button class="btn btn-outline-primary" type="button">Register</button>
+      </div>      
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="p-2">
+          <h1 style="color: #333; font-size: 2.5rem; margin-top: 20%; padding-bottom: 5%;">**Make Remote Work**</h1>
+          <p style="color: #666; padding-bottom: 5%;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus, neque ac euismod eleifend, nisi arcu hendrerit ligula, quis fringilla urna sapien quis ipsum. Phasellus at magna et elit finibus vehicula eget at lorem. Cras euismod mollis sapien in pretium. In tempor rhoncus arcu sit amet tempus. Integer porttitor ex neque, ac ornare diam elementum in. Aenean efficitur laoreet justo eget facilisis. Quisque dignissim feugiat auctor.
+          </p>
+          <button type="button" class="btn btn-dark" style="margin-top: 2%; margin-bottom: 4%;">Ver Mas</button>
+          <div class="client-logos">
+            <img src="./images/client-audiophile.svg" alt="Cliente" style="margin-left: 12px;">
+            <img src="./images/client-databiz.svg" alt="Cliente" style="margin-left: 12px;">
+            <img src="./images/client-maker.svg" alt="Cliente" style="margin-left: 12px;">
+            <img src="./images/client-meet.svg" alt="Cliente" style="margin-left: 12px;" class="imacen-central">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-2">
+          <img src="./images/image-hero-desktop.png" class="img-fluid" alt="Imagen central" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
